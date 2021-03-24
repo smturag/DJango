@@ -5,4 +5,4 @@ class user_form(ModelForm):
     class Meta:
         model = user_info
         fields = ["name","age"]
-        labels = {"Name":"name", "Age":"age"}
+

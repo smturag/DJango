@@ -3,5 +3,6 @@ from todolist import views
 
 urlpatterns = [
     path('name/', views.user, name='user'),
-    path('forms/', views.userform, name='form')
+    path('forms/', views.userform, name='form'),
+    path('getdata/',views.findData,name='getdata')
 ]
